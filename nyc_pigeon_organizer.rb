@@ -4,7 +4,9 @@ def nyc_pigeon_organizer(data)
     value.each do |bird_search|
       if bird_search["gender"] == gender
         pigeon_list << bird_search["male" && "female"]
-        
+      end
+    end
+  end
         
     
 end
